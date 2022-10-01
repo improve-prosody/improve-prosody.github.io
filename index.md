@@ -39,8 +39,8 @@ Expressive text-to-speech aims to generate high-quality samples with rich and di
 	</tbody>
 </table>
 
-<ruby>Text: the invention of movable metal letters in the middle of the fifteenth century may justly be considered as the invention of the art of printing. </ruby>
-
+<ruby>Text: the invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing. 
+</ruby>
 <table>
 	<thead>
 		<tr>
@@ -165,11 +165,11 @@ Expressive text-to-speech aims to generate high-quality samples with rich and di
 	</thead>
 	<tbody>
 		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/Prosody-MAE/001.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/w_o_ldm/001.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/w_o_vq/001.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/LocalProsody/001.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/Variational/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/Prosody-MAE/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/w_o_ldm/002.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/w_o_vq/002.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/LocalProsody/002.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/Variational/002.wav" type="audio/wav"></audio></td>
         </tr>
 	</tbody>
 </table>
