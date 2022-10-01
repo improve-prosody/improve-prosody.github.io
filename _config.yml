@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+layout: default
+markdown: kramdown
+kramdown:
+  toc_levels: 1..2
+title: "Prosody-TTS: Self-Supervised Prosody Pretraining with Latent Diffusion For Text-to-Speech"
+
