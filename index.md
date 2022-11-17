@@ -9,38 +9,10 @@ Expressive text-to-speech aims to generate high-quality samples with rich and di
 
 ## Comparison with other models
 
-### LJSpeech dataset
+### Single-Speaker LJSpeech
 
-<ruby>Text: than in the same operations with ugly ones.</ruby>
-<table>
-	<thead>
-		<tr>
-			<th style="text-align: center">GT</th>
-            <th style="text-align: center">GT (voc)</th>
-			<th style="text-align: center">FastSpeech 2</th>
-			<th style="text-align: center">Meta-StyleSpeech</th>
-            <th style="text-align: center">Glow-TTS</th>
-			<th style="text-align: center">Grad-TTS</th>
-			<th style="text-align: center">YourTTS</th>
-            <th style="text-align: center">Prosody-TTS</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/GT/LJ001-0013.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/GT(voc)/LJ001-0013.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/FastSpeech2/LJ001-0013.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/StyleSpeech/LJ001-0013.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/GlowTTS/LJ001-0013.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/Grad-TTS/LJ001-0013.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/YourTTS/LJ001-0013.wav" type="audio/wav"></audio></td>
-            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/Prosody-TTS/LJ001-0013.wav" type="audio/wav"></audio></td>
-		</tr>
-	</tbody>
-</table>
+<ruby>Text: the invention of movable metal letters in the middle of the fifteenth century may justly be considered as the invention of the art of printing. </ruby>
 
-<ruby>Text: the invention of movable metal letters in the middle of the 15th century may justly be considered as the invention of the art of printing. 
-</ruby>
 <table>
 	<thead>
 		<tr>
@@ -69,8 +41,37 @@ Expressive text-to-speech aims to generate high-quality samples with rich and di
 </table>
 
 
+<ruby>Text: printing, then, for our purpose, may be considered as the art of making books by means of movable types. </ruby>
 
-### LibriTTS dataset
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">GT</th>
+            <th style="text-align: center">GT (voc)</th>
+			<th style="text-align: center">FastSpeech 2</th>
+			<th style="text-align: center">Meta-StyleSpeech</th>
+            <th style="text-align: center">Glow-TTS</th>
+			<th style="text-align: center">Grad-TTS</th>
+			<th style="text-align: center">YourTTS</th>
+            <th style="text-align: center">Prosody-TTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/GT/LJ001-0009.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/GT(voc)/LJ001-0009.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/FastSpeech2/LJ001-0009.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/StyleSpeech/LJ001-0009.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/GlowTTS/LJ001-0009.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/Grad-TTS/LJ001-0009.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/YourTTS/LJ001-0009.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/Prosody-TTS/LJ001-0009.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+
+### Diverse Multi-Speaker LibriTTS
 <ruby>Text: The young Englishmen were introduced to everybody, entertained by everybody, intimate with everybody.</ruby>
 <table>
 	<thead>
@@ -128,6 +129,62 @@ Expressive text-to-speech aims to generate high-quality samples with rich and di
 </table>
 
 
+<ruby>Text: In a few days I had so far recovered my health that I could sit up all day, and walk out sometimes.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">GT</th>
+            <th style="text-align: center">GT (voc)</th>
+			<th style="text-align: center">FastSpeech 2</th>
+			<th style="text-align: center">Meta-StyleSpeech</th>
+            <th style="text-align: center">Glow-TTS</th>
+			<th style="text-align: center">Grad-TTS</th>
+			<th style="text-align: center">YourTTS</th>
+            <th style="text-align: center">Prosody-TTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/GT/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/GT(voc)/002.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/FastSpeech2/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/StyleSpeech/002.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/GlowTTS/002.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/Grad-TTS/002.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/YourTTS/002.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/Prosody-TTS/002.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+<ruby>Text: There was not a worse vagabond in Shrewsbury than old Barney the piper.</ruby>
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center">GT</th>
+            <th style="text-align: center">GT (voc)</th>
+			<th style="text-align: center">FastSpeech 2</th>
+			<th style="text-align: center">Meta-StyleSpeech</th>
+            <th style="text-align: center">Glow-TTS</th>
+			<th style="text-align: center">Grad-TTS</th>
+			<th style="text-align: center">YourTTS</th>
+            <th style="text-align: center">Prosody-TTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/GT/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/GT(voc)/001.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/FastSpeech2/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/StyleSpeech/001.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/GlowTTS/001.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/Grad-TTS/001.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/YourTTS/001.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LibriTTS/Prosody-TTS/001.wav" type="audio/wav"></audio></td>
+		</tr>
+	</tbody>
+</table>
+
 
 ## Ablation Study
 <ruby>Text: There was not a worse vagabond in Shrewsbury than old Barney the piper.</ruby>
@@ -170,6 +227,45 @@ Expressive text-to-speech aims to generate high-quality samples with rich and di
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/w_o_vq/002.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/LocalProsody/002.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/Ablation/Variational/002.wav" type="audio/wav"></audio></td>
+        </tr>
+	</tbody>
+</table>
+
+
+
+## Generalization To Unseen Data (VCTK)
+<ruby>Text: We also need a small plastic snake and a big toy frog for the kids.</ruby>
+<table>
+	<thead>
+		<tr>
+            <th style="text-align: center">GT</th>
+			<th style="text-align: center">GT(voc.)</th>
+			<th style="text-align: center">Prosody-TTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/VCTK_OOD/GT/p225_004.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/VCTK_OOD/GT_voc/p225_004.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/VCTK_OOD/Prosody-TTS/p225_004.wav" type="audio/wav"></audio></td>
+        </tr>
+	</tbody>
+</table>
+
+<ruby>Text: Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.</ruby>
+<table>
+	<thead>
+		<tr>
+            <th style="text-align: center">GT</th>
+			<th style="text-align: center">GT(voc.)</th>
+			<th style="text-align: center">Prosody-TTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/VCTK_OOD/GT/p226_003.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/VCTK_OOD/GT_voc/p226_003.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/VCTK_OOD/Prosody-TTS/p226_003.wav" type="audio/wav"></audio></td>
         </tr>
 	</tbody>
 </table>
