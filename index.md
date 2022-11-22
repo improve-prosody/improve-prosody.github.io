@@ -269,3 +269,43 @@ Expressive text-to-speech aims to generate high-quality samples with rich and di
         </tr>
 	</tbody>
 </table>
+
+
+
+
+## GT Duration Comparison
+<ruby>Text: has never been surpassed.</ruby>
+<table>
+	<thead>
+		<tr>
+            <th style="text-align: center">Backbone(FastSpeech 2)</th>
+			<th style="text-align: center">Backbone(FastSpeech 2) + GT Duration</th>
+			<th style="text-align: center">Prosody-TTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/FastSpeech2/LJ001-0008.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/FastSpeech2_gtdur/LJ001-0008.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/Prosody-TTS/LJ001-0008.wav" type="audio/wav"></audio></td>
+        </tr>
+	</tbody>
+</table>
+
+<ruby>Text: that the forms of printed letters should follow more or less closely those of the written character, and they followed them very closely.</ruby>
+<table>
+	<thead>
+		<tr>
+            <th style="text-align: center">Backbone(FastSpeech 2)</th>
+			<th style="text-align: center">Backbone(FastSpeech 2) + GT Duration</th>
+			<th style="text-align: center">Prosody-TTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/FastSpeech2/LJ001-0017.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/FastSpeech2_gtdur/LJ001-0017.wav" type="audio/wav"></audio></td>
+            <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/LJSpeech/Prosody-TTS/LJ001-0017.wav" type="audio/wav"></audio></td>
+        </tr>
+	</tbody>
+</table>
