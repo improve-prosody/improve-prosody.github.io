@@ -3,5 +3,5 @@ layout: default
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
-title: "Prosody-TTS: Self-Supervised Prosody Pretraining with Latent Diffusion For Text-to-Speech"
+title: "Improving Prosody with Masked Autoencoder and Conditional Diffusion Model For Expressive Text-to-Speech"
 
